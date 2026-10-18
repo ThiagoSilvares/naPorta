@@ -17,6 +17,7 @@ Web API REST para gestão de pedidos (criar, listar, filtrar, editar e delete), 
 - Pré-requisitos:
 
 docker run --name naporta-db -p 27017:27017 -d mongo:7 --replSet rs0
+
 docker exec naporta-db mongosh --eval "rs.initiate()"
 
 
