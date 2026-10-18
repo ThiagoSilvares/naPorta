@@ -100,6 +100,7 @@ Todo erro segue o formato `{ "exceptionType", "message", "details?" }`:
 | `FatalError` | 500 |
 
 
+
 - Imagens de testes:
  
 Estão na pasta imagensTestes, testes realizados com insomnia (criado pedido e editado, por exemplo) e a seed no MongoDB.
