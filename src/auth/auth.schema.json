@@ -1,0 +1,19 @@
+{
+    "title": "Login",
+    "description": "Credentials to get a JWT",
+    "type": "object",
+    "properties": {
+        "email": {
+            "description": "User e-mail",
+            "type": "string",
+            "format": "email",
+            "transform": ["trim", "toLowerCase"]
+        },
+        "password": {
+            "description": "User password",
+            "type": "string",
+            "minLength": 1
+        }
+    },
+    "required": ["email", "password"]
+}
